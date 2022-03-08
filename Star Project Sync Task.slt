@@ -1,0 +1,68 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Star Project Sync Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "job_type": "standard",
+        "llfeed_token": "iHX1jPg8nAHllzLixLRPMYW7abxxjkXJ",
+        "notification": {
+            "recipients": "mwinston@lbmc.com",
+            "states": [
+                "Failed"
+            ]
+        },
+        "pipeline_parameters": {},
+        "pipeline_path": null,
+        "snaplex_path": "GroundDev"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-07-09",
+        "start_time": "10:12:09",
+        "time_zone": "US/Central"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-07-09",
+        "start_time": "10:12:09",
+        "time_zone": "US/Central"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

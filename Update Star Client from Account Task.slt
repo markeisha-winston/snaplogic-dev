@@ -1,0 +1,68 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Update Star Client from Account Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "job_type": "standard",
+        "llfeed_token": "XYevH0854zJh1FR4DFoUMRLUUCc1eTqx",
+        "notification": {
+            "recipients": "mwinston@lbmc.com",
+            "states": [
+                "Failed"
+            ]
+        },
+        "pipeline_parameters": {},
+        "pipeline_path": "Update Star Client from Account",
+        "snaplex_path": "GroundDev"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 10,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-07-09",
+        "start_time": "10:15:09",
+        "time_zone": "US/Central"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 10,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-07-09",
+        "start_time": "10:15:09",
+        "time_zone": "US/Central"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
